@@ -1,0 +1,334 @@
+<?xml version="1.0" standalone="yes"?>
+<CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.TransferOrderEntry.TransferOrderEntryForm" msprop:CGCCode="" msprop:Description="905 To Entry" msprop:CommentText="Remvoed UOM&#xA;[spare: 3/7/2012 11:55:39 AM]&#xA;&#xA;&#xA;Add Detail.View.Chart01 to Line Entry&#xA;[spare: 3/7/2012 11:58:08 AM]&#xA;&#xA;Anchor&#xA;[spare: 3/7/2012 12:02:00 PM]&#xA;&#xA;Anchors and UOM AGAIN!!!!&#xA;[spare: 3/7/2012 12:10:56 PM]" msprop:Key3="" msprop:Key1="905_TO_Entry" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Controls">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentControlKey" type="xs:string" />
+                <xs:element name="ControlType" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserId" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="ControlsID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Properties">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="PropertyName" type="xs:string" />
+                <xs:element name="PropertyValue" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserID" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="PropertiesID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Controls>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <ParentControlKey>1cc1d4d5-0a12-4c23-b0f6-08f69ce43db6</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Properties>
+    <FormsID>summaryListPanel1</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>7908565c-cc3c-43d1-b85b-9921ad88fb89</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>summaryListPanel1</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>7908565c-cc3c-43d1-b85b-9921ad88fb89</Key>
+    <PropertyName>Anchor</PropertyName>
+    <PropertyValue>Top, Bottom, Left, Right</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>7908565c-cc3c-43d1-b85b-9921ad88fb89</Key>
+    <PropertyName>LayoutXML</PropertyName>
+    <PropertyValue>&lt;DisplayLayout&gt;&lt;xs:schema id="DisplayLayout" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;&lt;xs:element name="DisplayLayout" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;&lt;xs:complexType&gt;&lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;&lt;xs:element name="DisplayLayoutTable"&gt;&lt;xs:complexType&gt;&lt;xs:sequence&gt;&lt;xs:element name="ColumnKey" type="xs:string" minOccurs="0" /&gt;&lt;xs:element name="PropertyName" type="xs:string" minOccurs="0" /&gt;&lt;xs:element name="PropertyValue" type="xs:string" minOccurs="0" /&gt;&lt;/xs:sequence&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:choice&gt;&lt;/xs:complexType&gt;&lt;/xs:element&gt;&lt;/xs:schema&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;7908565c-cc3c-43d1-b85b-9921ad88fb89&lt;/ColumnKey&gt;&lt;PropertyName&gt;ShowSummaries&lt;/PropertyName&gt;&lt;PropertyValue&gt;False&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Company&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFOrdNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFOrdNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Order&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFOrdLine&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;57&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFOrdLine&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Line&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFOrdLine&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OpenLine&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;52&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OpenLine&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Status&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Part&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;84&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Planned Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;WarehouseCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;WarehouseCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Warehouse&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;119&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Order Shipped Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Plant&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Plant&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;From Plant&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ToPlant&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ToPlant&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Plant&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ToPlant&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OrderFirm&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;76&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OrderFirm&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Firm Order&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RequestDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RequestDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Ship By&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;NeedByDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;NeedByDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Need By&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Shipped&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;62&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ManualOrder&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;92&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ManualOrder&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Manual Order&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyJobNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyJobNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Job&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandJobNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandJobNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Job&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Ship Via&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFLineNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;106&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TFLineNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;TF Line Number&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ReceivedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;91&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ReceivedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Received Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;AdditionalQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;94&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;AdditionalQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Additional Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FirmDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FirmDate&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Firm Date&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FirmUser&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FirmUser&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Firm User&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandAsmSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;91&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandAsmSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Demand Asm&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandMtlSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;83&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DemandMtlSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Demand Mtl&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyAsmSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;82&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyAsmSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Supply Asm&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyMtlSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;74&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SupplyMtlSeq&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Supply Mtl&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StockTrans&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;34&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StockTrans&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Stk&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character01&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character02&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character03&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character04&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character05&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character06&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character07&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character08&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character09&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Character10&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number01&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number02&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number03&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number04&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number05&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number06&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number07&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number08&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number09&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number10&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number11&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number12&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number13&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number14&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number15&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number16&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number17&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number18&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number19&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Number20&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date01&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date02&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date03&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date04&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date05&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date06&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date07&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date08&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date09&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date10&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date11&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date12&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date13&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date14&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date15&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date16&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date17&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date18&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date19&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Date20&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox01&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox02&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox03&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox04&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox05&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox06&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox07&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox08&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox09&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox10&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox11&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox12&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox13&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox14&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox15&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox16&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox17&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox18&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox19&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CheckBox20&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;87&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar01&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar02&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar03&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar04&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar05&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar06&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar07&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar08&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar09&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShortChar10&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;UOM&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;OurStockQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;UOM&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;89&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Required Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;84&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Shipped Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingShippedQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SysRowID&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SysRevID&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;71&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;BitFlag&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;58&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;BitFlag&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Bit Flag&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SelectForPicking&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;109&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StagingWarehouseCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Shipping Warehouse&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StagingBinNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Shipping Bin&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PickError&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ToPlantDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ToPlantDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;To Plant&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FromPlantDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;FromPlantDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;From Plant&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Selected&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;65&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RequiredQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;84&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RequiredQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Planned Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CreateOrder&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;54&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;CreateOrder&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Create&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;LineStatus&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Status&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;LotNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;LotNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Lot Number&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Weight&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TotNetWeight&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;108&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;TotNetWeight&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Total Net Weight&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;BinNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;BinNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Bin&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgClass&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgClass&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Classification&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Type&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Packages&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;132&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;Packages&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Number of Packages&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RevisionNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RevisionNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Rev&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;AvailSerialNumbers&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;125&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimConvFactor&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;117&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimConvFactor&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Conversion Factor&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimCodeDimCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimCodeDimCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DimCodeDimCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgClassDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgClassDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgClassDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PkgCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DisplayShipQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;119&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DisplayShipQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Order Shipped Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;InvtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;InvtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;UOM&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ThisOrderInvtyQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;97&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ThisOrderInvtyQty&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;This Trans Qty&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescIUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescIUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;UOM&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescIUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSalesUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSalesUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;UOM&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSalesUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackLots&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;74&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackLots&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Track Lots&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackLots&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPartDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPartDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSellingFactor&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;79&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSellingFactor&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Factor&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescSellingFactor&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackSerialNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;82&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackSerialNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Track Serial&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackSerialNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPricePerCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPricePerCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Price Per&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPricePerCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackDimension&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;115&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackDimension&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Track Multi UOMs&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescTrackDimension&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCodeWebDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;142&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCodeWebDesc&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StageWhseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StageWhseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StageWhseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;WarehouseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;WarehouseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Caption&lt;/PropertyName&gt;&lt;PropertyValue&gt;Description&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;WarehouseCodeDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;CellActivation&lt;/PropertyName&gt;&lt;PropertyValue&gt;NoEdit&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RowIdent&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;RowMod&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;98&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;DBRowIdent&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;86&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;154&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;ShipViaCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;118&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;118&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;SellingQtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Hidden&lt;/PropertyName&gt;&lt;PropertyValue&gt;True&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StagingWarehouseCode&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;194&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;StagingBinNum&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;165&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;LineStatus&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;118&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;InvtyUOM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Hidden&lt;/PropertyName&gt;&lt;PropertyValue&gt;True&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescIUM&lt;/ColumnKey&gt;&lt;PropertyName&gt;Hidden&lt;/PropertyName&gt;&lt;PropertyValue&gt;True&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;DisplayLayoutTable&gt;&lt;ColumnKey&gt;PartDescPartDescription&lt;/ColumnKey&gt;&lt;PropertyName&gt;Width&lt;/PropertyName&gt;&lt;PropertyValue&gt;284&lt;/PropertyValue&gt;&lt;/DisplayLayoutTable&gt;&lt;/DisplayLayout&gt;</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Script</PropertyName>
+    <PropertyValue>' **************************************************
+' Custom code for TransferOrderEntryForm
+' Created: 3/7/2012 11:48:11 AM
+' **************************************************
+Imports System
+Imports System.ComponentModel
+Imports System.Data
+Imports System.Diagnostics
+Imports System.Windows.Forms
+Imports Microsoft.VisualBasic
+Imports Epicor.Mfg.BO
+Imports Epicor.Mfg.UI
+Imports Epicor.Mfg.UI.Adapters
+Imports Epicor.Mfg.UI.Customization
+Imports Epicor.Mfg.UI.ExtendedProps
+Imports Epicor.Mfg.UI.FormFunctions
+Imports Epicor.Mfg.UI.FrameWork
+Imports Epicor.Mfg.UI.Searches
+
+Public Class Script
+
+	' ** Wizard Insert Location - Do Not Remove 'Begin/End Wizard Added Module Level Variables' Comments! **
+	' Begin Wizard Added Module Level Variables **
+
+	' End Wizard Added Module Level Variables **
+
+	' Add Custom Module Level Variables Here **
+
+	Public Sub InitializeCustomCode()
+		' ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Variable Initialization' lines **
+		' Begin Wizard Added Variable Initialization
+
+		' End Wizard Added Variable Initialization
+
+		' Begin Wizard Added Custom Method Calls
+
+		' End Wizard Added Custom Method Calls
+	End Sub
+
+	Public Sub DestroyCustomCode()
+		' ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Object Disposal' lines **
+		' Begin Wizard Added Object Disposal
+
+		' End Wizard Added Object Disposal
+
+		' Begin Custom Code Disposal
+
+		' End Custom Code Disposal
+	End Sub
+
+End Class
+</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Language</PropertyName>
+    <PropertyValue>VisualBasic</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>tranDetailPanel1</ControlName>
+    <Key>61f4f695-9c45-4e4e-bd7b-7f4c01dd08a9</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>504</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>tranDetailPanel1</ControlName>
+    <Key>61f4f695-9c45-4e4e-bd7b-7f4c01dd08a9</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>623</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>1cc1d4d5-0a12-4c23-b0f6-08f69ce43db6</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>599</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiGroupBox1</ControlName>
+    <Key>1cc1d4d5-0a12-4c23-b0f6-08f69ce43db6</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>488</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>1cc1d4d5-0a12-4c23-b0f6-08f69ce43db6</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>244</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>585</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>10</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>235</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>detailView.Character01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>87246bad-b38b-4660-bbe9-5a4a8ca8908b</Key>
+    <PropertyName>WordWrap</PropertyName>
+    <PropertyValue>False</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>TransferOrderEntryForm.baseStatusBar</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransferOrderEntryForm</FormsID>
+    <ControlName>baseStatusBar</ControlName>
+    <Key>TransferOrderEntryForm.baseStatusBar</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>856</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+</CustomizationDS>

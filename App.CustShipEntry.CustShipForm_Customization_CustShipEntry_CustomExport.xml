@@ -1,0 +1,370 @@
+<?xml version="1.0" standalone="yes"?>
+<CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.CustShipEntry.CustShipForm" msprop:CGCCode="" msprop:Description="CustShipEntry" msprop:CommentText="ShipHead.Number01 used for Box Count.&#xA;[spare: 8/19/2014 3:37:52 PM]" msprop:Key3="" msprop:Key1="CustShipEntry" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Controls">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentControlKey" type="xs:string" />
+                <xs:element name="ControlType" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserId" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="ControlsID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Properties">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="PropertyName" type="xs:string" />
+                <xs:element name="PropertyValue" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserID" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="PropertiesID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Controls>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <ParentControlKey>14122102-0176-4904-817c-0cebf5e81474</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <ParentControlKey>14122102-0176-4904-817c-0cebf5e81474</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>14122102-0176-4904-817c-0cebf5e81474</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>122</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>328</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>14122102-0176-4904-817c-0cebf5e81474</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>21</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>104</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>456</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>lblWeight</ControlName>
+    <Key>d306797d-b4ff-424a-80d0-4b2cbd9bcafa</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>29</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>lblWeight</ControlName>
+    <Key>d306797d-b4ff-424a-80d0-4b2cbd9bcafa</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>37</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>lblWeight</ControlName>
+    <Key>d306797d-b4ff-424a-80d0-4b2cbd9bcafa</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>122</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>lblWeight</ControlName>
+    <Key>d306797d-b4ff-424a-80d0-4b2cbd9bcafa</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC1</ControlName>
+    <Key>6f8abed6-49b0-4eb0-9259-cfcb98cf14a6</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Number of Boxes:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>ShipHead.Number01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>6ef9b74f-ba2f-43a6-86b7-e8a3023f1857</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Script</PropertyName>
+    <PropertyValue>// **************************************************
+// Custom code for CustShipForm
+// Created: 8/19/2014 3:34:43 PM
+// **************************************************
+using System;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Windows.Forms;
+using Epicor.Mfg.BO;
+using Epicor.Mfg.UI;
+using Epicor.Mfg.UI.Adapters;
+using Epicor.Mfg.UI.Customization;
+using Epicor.Mfg.UI.ExtendedProps;
+using Epicor.Mfg.UI.FormFunctions;
+using Epicor.Mfg.UI.FrameWork;
+using Epicor.Mfg.UI.Searches;
+
+public class Script
+{
+	// ** Wizard Insert Location - Do Not Remove 'Begin/End Wizard Added Module Level Variables' Comments! **
+	// Begin Wizard Added Module Level Variables **
+
+	// End Wizard Added Module Level Variables **
+
+	// Add Custom Module Level Variables Here **
+
+	public void InitializeCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Variable Initialization' lines **
+		// Begin Wizard Added Variable Initialization
+
+		// End Wizard Added Variable Initialization
+
+		// Begin Wizard Added Custom Method Calls
+
+		// End Wizard Added Custom Method Calls
+	}
+
+	public void DestroyCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Object Disposal' lines **
+		// Begin Wizard Added Object Disposal
+
+		// End Wizard Added Object Disposal
+
+		// Begin Custom Code Disposal
+
+		// End Custom Code Disposal
+	}
+}
+</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Language</PropertyName>
+    <PropertyValue>CSharp</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+</CustomizationDS>

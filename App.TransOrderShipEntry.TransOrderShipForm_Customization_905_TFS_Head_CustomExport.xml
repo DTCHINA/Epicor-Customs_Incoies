@@ -1,0 +1,274 @@
+<?xml version="1.0" standalone="yes"?>
+<CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
+  <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.TransOrderShipEntry.TransOrderShipForm" msprop:CGCCode="" msprop:Description="TO Ship Head" msprop:CommentText="Add Char01 to Header.  This will be the price list KEY&#xA;[spare: 4/19/2012 11:36:51 AM]" msprop:Key3="" msprop:Key1="905_TFS_Head" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Controls">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="ParentControlKey" type="xs:string" />
+                <xs:element name="ControlType" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserId" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="ControlsID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Properties">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FormsID" type="xs:string" />
+                <xs:element name="ControlName" type="xs:string" />
+                <xs:element name="Key" type="xs:string" />
+                <xs:element name="PropertyName" type="xs:string" />
+                <xs:element name="PropertyValue" type="xs:string" />
+                <xs:element name="Company" type="xs:string" />
+                <xs:element name="Plant" type="xs:string" />
+                <xs:element name="DcdUserID" type="xs:string" />
+                <xs:element name="GroupID" type="xs:string" />
+                <xs:element name="PropertiesID" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <ParentControlKey>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>22</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>60</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>558</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>52</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>TFShipHead.Character01</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Script</PropertyName>
+    <PropertyValue>// **************************************************
+// Custom code for TransOrderShipForm
+// Created: 4/19/2012 11:35:29 AM
+// **************************************************
+using System;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Windows.Forms;
+using Epicor.Mfg.BO;
+using Epicor.Mfg.UI;
+using Epicor.Mfg.UI.Adapters;
+using Epicor.Mfg.UI.Customization;
+using Epicor.Mfg.UI.ExtendedProps;
+using Epicor.Mfg.UI.FormFunctions;
+using Epicor.Mfg.UI.FrameWork;
+using Epicor.Mfg.UI.Searches;
+
+public class Script
+{
+	// ** Wizard Insert Location - Do Not Remove 'Begin/End Wizard Added Module Level Variables' Comments! **
+	// Begin Wizard Added Module Level Variables **
+
+	// End Wizard Added Module Level Variables **
+
+	// Add Custom Module Level Variables Here **
+
+	public void InitializeCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Variable Initialization' lines **
+		// Begin Wizard Added Variable Initialization
+
+		// End Wizard Added Variable Initialization
+
+		// Begin Wizard Added Custom Method Calls
+
+		// End Wizard Added Custom Method Calls
+	}
+
+	public void DestroyCustomCode()
+	{
+		// ** Wizard Insert Location - Do not delete 'Begin/End Wizard Added Object Disposal' lines **
+		// Begin Wizard Added Object Disposal
+
+		// End Wizard Added Object Disposal
+
+		// Begin Custom Code Disposal
+
+		// End Custom Code Disposal
+	}
+}
+</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>Customization</ControlName>
+    <Key>2dcd1674-5e34-4d98-b493-c75747027376</Key>
+    <PropertyName>Language</PropertyName>
+    <PropertyValue>CSharp</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>95ab9b42-9ff2-4384-a965-e37b1a82b53e</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>27</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>95ab9b42-9ff2-4384-a965-e37b1a82b53e</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>48</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>95ab9b42-9ff2-4384-a965-e37b1a82b53e</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>120</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>95ab9b42-9ff2-4384-a965-e37b1a82b53e</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC1</ControlName>
+    <Key>29cdb778-41f0-48c2-a7a0-feca4f4e0f0f</Key>
+    <PropertyName>Enabled</PropertyName>
+    <PropertyValue>False</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+</CustomizationDS>
