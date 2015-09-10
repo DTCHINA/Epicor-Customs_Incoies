@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
   <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
-    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.CustShipEntry.CustShipForm" msprop:CGCCode="" msprop:CommentText="ShipHead.Number01 used for Box Count.&#xA;[spare: 8/19/2014 3:37:52 PM]&#xA;&#xA;&#xA;&#xA;" msprop:Key3="" msprop:Key1="CustShipV4.1" msprop:Description="CustShipV4.1" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="" msprop:BuildVersion="9.05.702A">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.CustShipEntry.CustShipForm" msprop:CGCCode="" msprop:CommentText="ShipHead.Number01 used for Box Count.&#xA;[spare: 8/19/2014 3:37:52 PM]&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA; &#xA;[spare: 9/10/2015 4:18:11 PM]&#xA;" msprop:Key3="" msprop:Key1="CustShipV4.1" msprop:Description="CustShipV4.1" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="" msprop:BuildVersion="9.05.702A">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
           <xs:element name="Controls">
@@ -810,9 +810,9 @@
   </Controls>
   <Controls>
     <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <ParentControlKey>8083f59a-17ed-4dcf-909f-49bf97b83b05</ParentControlKey>
+    <ControlName>epiLabelC29</ControlName>
+    <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
+    <ParentControlKey>550ae954-4cbb-43a9-a594-e15f4f60da07</ParentControlKey>
     <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
     <Company />
     <Plant />
@@ -822,10 +822,34 @@
   </Controls>
   <Controls>
     <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC29</ControlName>
-    <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
-    <ParentControlKey>550ae954-4cbb-43a9-a594-e15f4f60da07</ParentControlKey>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <ParentControlKey>542f800b-8df7-4aea-9433-0bc14421fd3a</ParentControlKey>
     <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <ParentControlKey>542f800b-8df7-4aea-9433-0bc14421fd3a</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <ParentControlKey>542f800b-8df7-4aea-9433-0bc14421fd3a</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiButton</ControlType>
     <Company />
     <Plant />
     <DcdUserId />
@@ -925,6 +949,8 @@ public class Script
 
 		this.BTNCalc.Click += new System.EventHandler(this.BTNCalc_Click);
 		this.epiBT_Add_Skid.Click += new System.EventHandler(this.epiBT_Add_Skid_Click);
+		this.epiBT_Add_Roll.Click += new System.EventHandler(this.epiBT_Add_Roll_Click);
+
 		// End Wizard Added Custom Method Calls
 	}
 
@@ -935,6 +961,8 @@ public class Script
 
 		this.BTNCalc.Click -= new System.EventHandler(this.BTNCalc_Click);
 		this.epiBT_Add_Skid.Click -= new System.EventHandler(this.epiBT_Add_Skid_Click);
+		this.epiBT_Add_Roll.Click -= new System.EventHandler(this.epiBT_Add_Roll_Click);
+
 		// End Wizard Added Object Disposal
 
 		// Begin Custom Code Disposal
@@ -955,7 +983,16 @@ public class Script
 		int RollQty = 0;
 		int BoxQty = 0;
 		int SkidQty = 0;
-	
+
+
+
+		if (Int32.TryParse(TXT_Burn_Box.Text,out X)) 	   // Burn Box 26 x 19 x 20
+		{
+			fieldContents = string.Format("{0} - {1} AT {2} {3}",X,"Box(s)","26 x 19 x 20",Environment.NewLine);
+			edvShipHead.dataView[edvShipHead.Row]["Character10"]+= fieldContents;
+			BoxQty += X;
+		}
+
 		if (Int32.TryParse(epiText_EX_Small.Text,out X)) 	   //Extra Small box
 		{
 			fieldContents = string.Format("{0} - {1} AT {2} {3}",X,"Box(s)","14 x 12 x 9",Environment.NewLine);
@@ -1093,9 +1130,38 @@ public class Script
 			SkidQty += Y;
 		}
 		
-//	  SkidQty_before = edvShipHead.dataView[edvShipHead.Row]["Number02"];
         SkidQty_before = Convert.ToInt32((decimal)edvShipHead.dataView[edvShipHead.Row]["Number02"]);
 		edvShipHead.dataView[edvShipHead.Row]["Number02"]= SkidQty + SkidQty_before ;
+
+	}
+
+
+	private void epiBT_Add_Roll_Click(object sender, System.EventArgs args)
+	{
+		// ** Place Event Handling Code Here **
+
+		string addfieldContents = string.Empty;
+		//dvShipHead.dataView[edvShipHead.Row]["Character10"]= addfieldContents;	
+	
+		int Y = 0;	
+		int RollQty = 0;
+		int RollQty_before = 0;
+
+
+		if (Int32.TryParse(txtRollQty.Text,out Y)) 		 //SKID Standard
+		{
+			addfieldContents = string.Format("{0} - {1} AT {2} Dia{3} Length{4}",
+				Y,
+				"Roll(s)", 
+				TXT_Roll_D.Text,
+				TXT_Roll_L.Text,
+				Environment.NewLine);
+			edvShipHead.dataView[edvShipHead.Row]["Character10"]+= addfieldContents;
+			RollQty += Y;
+		}
+		
+        RollQty_before = Convert.ToInt32((decimal)edvShipHead.dataView[edvShipHead.Row]["Number03"]);
+		edvShipHead.dataView[edvShipHead.Row]["Number03"]= RollQty + RollQty_before ;
 
 	}
 }</PropertyValue>
@@ -3402,7 +3468,7 @@ public class Script
     <ControlName>epiText_Skid_ODD_L</ControlName>
     <Key>2293888b-4afc-4621-ad11-663a6366304f</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3474,7 +3540,7 @@ public class Script
     <ControlName>epiText_Skid_ODD_W</ControlName>
     <Key>56444350-ab8e-4912-bfc9-b4515912c24b</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3546,7 +3612,7 @@ public class Script
     <ControlName>epiText_Skid_ODD_H</ControlName>
     <Key>3c8c6458-50b1-4742-8663-970a123819c2</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3618,7 +3684,7 @@ public class Script
     <ControlName>epiText_Skid_ODD</ControlName>
     <Key>c095b00b-d2b9-4541-b154-dd293bea9b82</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>360</PropertyValue>
+    <PropertyValue>384</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3690,7 +3756,7 @@ public class Script
     <ControlName>epiLabelC7</ControlName>
     <Key>20e0a6dd-6c95-44c0-85f9-4b100dbed516</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3786,7 +3852,7 @@ public class Script
     <ControlName>epiLabelC8</ControlName>
     <Key>04a64804-8b61-49d8-8621-64b848cf1078</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -3882,7 +3948,7 @@ public class Script
     <ControlName>epiLabelC9</ControlName>
     <Key>f885ecfa-f6a8-4e82-ab4a-d2829ee7b92a</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>384</PropertyValue>
+    <PropertyValue>408</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4458,7 +4524,7 @@ public class Script
     <ControlName>epiLabelC14</ControlName>
     <Key>d996f686-b9ff-4e29-b893-824d9f9fbeee</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>288</PropertyValue>
+    <PropertyValue>320</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4542,7 +4608,7 @@ public class Script
     <ControlName>epiLabelC15</ControlName>
     <Key>c0c269d9-a913-476a-8afe-d9350646240f</Key>
     <PropertyName>Left</PropertyName>
-    <PropertyValue>473</PropertyValue>
+    <PropertyValue>503</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4554,7 +4620,7 @@ public class Script
     <ControlName>epiLabelC15</ControlName>
     <Key>c0c269d9-a913-476a-8afe-d9350646240f</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>360</PropertyValue>
+    <PropertyValue>384</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4662,7 +4728,7 @@ public class Script
     <ControlName>BTNCalc</ControlName>
     <Key>69981f45-c4e3-4201-af8f-3bf879530c4c</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>416</PropertyValue>
+    <PropertyValue>440</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4758,7 +4824,7 @@ public class Script
     <ControlName>TXT_Roll_D</ControlName>
     <Key>01027c30-1ace-4326-acf1-d411c3ec0fbf</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>312</PropertyValue>
+    <PropertyValue>344</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4854,7 +4920,7 @@ public class Script
     <ControlName>txtRollQty</ControlName>
     <Key>568e10f2-fa8d-4897-8626-a8f9500bc673</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>288</PropertyValue>
+    <PropertyValue>320</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -4938,7 +5004,7 @@ public class Script
     <ControlName>epiLabelC16</ControlName>
     <Key>abb64b93-2905-4e3d-8d28-90d565292ad5</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>312</PropertyValue>
+    <PropertyValue>344</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -5034,7 +5100,7 @@ public class Script
     <ControlName>TXT_Roll_L</ControlName>
     <Key>c5e86dce-5d7f-4fa0-94b3-2b18440c439f</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>312</PropertyValue>
+    <PropertyValue>344</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -5634,7 +5700,7 @@ public class Script
     <ControlName>epiLabelC1</ControlName>
     <Key>40938b2a-efd3-4f24-b90b-f118b9d384f2</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>312</PropertyValue>
+    <PropertyValue>344</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -7998,7 +8064,7 @@ public class Script
     <ControlName>epiBT_Add_Skid</ControlName>
     <Key>7467be5a-0c48-42e7-a0fa-53070893f873</Key>
     <PropertyName>ChildIndex</PropertyName>
-    <PropertyValue>0</PropertyValue>
+    <PropertyValue>1</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8058,7 +8124,7 @@ public class Script
     <ControlName>epiBT_Add_Skid</ControlName>
     <Key>7467be5a-0c48-42e7-a0fa-53070893f873</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>360</PropertyValue>
+    <PropertyValue>384</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8222,78 +8288,6 @@ public class Script
     <PropertiesID />
   </Properties>
   <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>ChildIndex</PropertyName>
-    <PropertyValue>0</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>Parent</PropertyName>
-    <PropertyValue>8083f59a-17ed-4dcf-909f-49bf97b83b05</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>Height</PropertyName>
-    <PropertyValue>13</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>Width</PropertyName>
-    <PropertyValue>29</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>Left</PropertyName>
-    <PropertyValue>782</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
-    <FormsID>CustShipForm</FormsID>
-    <ControlName>epiLabelC28</ControlName>
-    <Key>f419d60e-7267-40a3-9a50-a783063ec35e</Key>
-    <PropertyName>Top</PropertyName>
-    <PropertyValue>7</PropertyValue>
-    <Company />
-    <Plant />
-    <DcdUserID />
-    <GroupID />
-    <PropertiesID />
-  </Properties>
-  <Properties>
     <FormsID>summaryPanel1</FormsID>
     <ControlName>headerDetailPanel1</ControlName>
     <Key>8083f59a-17ed-4dcf-909f-49bf97b83b05</Key>
@@ -8418,7 +8412,7 @@ public class Script
     <ControlName>epiLabelC29</ControlName>
     <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
     <PropertyName>Left</PropertyName>
-    <PropertyValue>664</PropertyValue>
+    <PropertyValue>648</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8430,7 +8424,7 @@ public class Script
     <ControlName>epiLabelC29</ControlName>
     <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
     <PropertyName>Top</PropertyName>
-    <PropertyValue>368</PropertyValue>
+    <PropertyValue>360</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8454,7 +8448,7 @@ public class Script
     <ControlName>epiLabelC29</ControlName>
     <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
     <PropertyName>AnchorTop</PropertyName>
-    <PropertyValue>368</PropertyValue>
+    <PropertyValue>360</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8466,7 +8460,7 @@ public class Script
     <ControlName>epiLabelC29</ControlName>
     <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
     <PropertyName>AnchorLeft</PropertyName>
-    <PropertyValue>664</PropertyValue>
+    <PropertyValue>648</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
@@ -8515,6 +8509,390 @@ public class Script
     <Key>e9cff261-be0a-491d-95b6-97998b605f02</Key>
     <PropertyName>Text</PropertyName>
     <PropertyValue>CustShip 4.1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>667fd59e-dc9b-4633-912d-ba8262fabf09</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>667fd59e-dc9b-4633-912d-ba8262fabf09</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>-8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>listPanel1</FormsID>
+    <ControlName>grdList</ControlName>
+    <Key>667fd59e-dc9b-4633-912d-ba8262fabf09</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>headerDetailPanel1</ControlName>
+    <Key>38606cac-25e9-4538-be95-8e64ffeb7f06</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>521</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>headerDetailPanel1</ControlName>
+    <Key>38606cac-25e9-4538-be95-8e64ffeb7f06</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>873</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>summaryPanel1</ControlName>
+    <Key>550ae954-4cbb-43a9-a594-e15f4f60da07</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>608</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>summaryPanel1</ControlName>
+    <Key>550ae954-4cbb-43a9-a594-e15f4f60da07</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>764</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>groupBox1</ControlName>
+    <Key>a82a24c6-b9f3-487d-9880-eb284de5fcc4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>groupBox1</ControlName>
+    <Key>a82a24c6-b9f3-487d-9880-eb284de5fcc4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>542f800b-8df7-4aea-9433-0bc14421fd3a</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>136</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>426</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>272</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Font.Bold</PropertyName>
+    <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiLabelC28</ControlName>
+    <Key>58adf716-2e17-456c-a2b7-54e7c735fb01</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Burn Box 26 x 19 x 20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>542f800b-8df7-4aea-9433-0bc14421fd3a</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>23</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>37</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>568</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>272</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC28</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>TXT_Burn_Box</ControlName>
+    <Key>7e99b341-0ea8-41d8-a383-692d06ae4bc4</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue />
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>542f800b-8df7-4aea-9433-0bc14421fd3a</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>48</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>71</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>616</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>320</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>CustShipForm</FormsID>
+    <ControlName>epiBT_Add_Roll</ControlName>
+    <Key>ed6ffcef-4384-4e40-a663-eb7be8b78a4f</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Add Roll</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />
