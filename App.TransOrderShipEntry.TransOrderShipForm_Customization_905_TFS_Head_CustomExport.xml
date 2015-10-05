@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <CustomizationDS xmlns="http://tempuri.org/XMLSchema.xsd">
   <xs:schema id="CustomizationDS" targetNamespace="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
-    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.TransOrderShipEntry.TransOrderShipForm" msprop:CGCCode="" msprop:Description="TO Ship Head" msprop:CommentText="Add Char01 to Header.  This will be the price list KEY&#xA;[spare: 4/19/2012 11:36:51 AM]&#xA;&#xA; &#xA;[spare: 10/1/2015 3:20:24 PM]" msprop:Key3="" msprop:Key1="905_TFS_Head" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="CIC68322" msprop:BuildVersion="9.05.702A">
+    <xs:element name="CustomizationDS" msdata:IsDataSet="true" msdata:Locale="" msprop:Key2="App.TransOrderShipEntry.TransOrderShipForm" msprop:CGCCode="" msprop:Description="TO Ship Head" msprop:CommentText="Add Char01 to Header.  This will be the price list KEY&#xA;[spare: 4/19/2012 11:36:51 AM]&#xA;&#xA; &#xA;[spare: 10/1/2015 3:20:24 PM]&#xA;&#xA; &#xA;[spare: 10/5/2015 12:14:56 PM]&#xA;&#xA;" msprop:Key3="" msprop:Key1="905_TFS_Head" msprop:TypeCode="Customization" msprop:ProductID="EP" msprop:Company="" msprop:BuildVersion="9.05.702A">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
           <xs:element name="Controls">
@@ -712,6 +712,102 @@
     <GroupID />
     <ControlsID />
   </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraCombo</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraCombo</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiUltraCombo</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <ParentControlKey>043aae70-8cb6-48a8-b011-87da316a10ac</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <ParentControlKey>ad093f2d-f839-4aa0-ab4a-fd15240eb464</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiLabel</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
+  <Controls>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <ParentControlKey>ad093f2d-f839-4aa0-ab4a-fd15240eb464</ParentControlKey>
+    <ControlType>Epicor.Mfg.UI.FrameWork.EpiTextBox</ControlType>
+    <Company />
+    <Plant />
+    <DcdUserId />
+    <GroupID />
+    <ControlsID />
+  </Controls>
   <Properties>
     <FormsID>TransOrderShipForm</FormsID>
     <ControlName>epiTextBoxC1</ControlName>
@@ -826,6 +922,7 @@ public class Script
 	private EpiDataView edvTFShipHead;
 	//* Prvate EpiDataview edvTFOrdHed;
 
+	private EpiDataView edvTFOrdHed;
 	// End Wizard Added Module Level Variables **
 
 	// Add Custom Module Level Variables Here **
@@ -843,6 +940,7 @@ public class Script
 		this.AddSkids.Click += new System.EventHandler(this.AddSkids_Click);
 		this.AddRolls.Click += new System.EventHandler(this.AddRolls_Click);
 		this.BT_Process.Click += new System.EventHandler(this.BT_Process_Click);
+		
 		// End Wizard Added Custom Method Calls
 	}
 
@@ -854,6 +952,7 @@ public class Script
 		this.AddSkids.Click -= new System.EventHandler(this.AddSkids_Click);
 		this.AddRolls.Click -= new System.EventHandler(this.AddRolls_Click);
 		this.BT_Process.Click -= new System.EventHandler(this.BT_Process_Click);
+
 		// End Wizard Added Object Disposal
 
 		// Begin Custom Code Disposal
@@ -861,7 +960,7 @@ public class Script
 
 		// End Custom Code Disposal
 	}
-
+	
 	private void AddSkids_Click(object sender, System.EventArgs args)
 	{
 		// ** Place Event Handling Code Here **
@@ -1048,6 +1147,8 @@ public class Script
 		edvTFShipHead.dataView[edvTFShipHead.Row]["Number04"]= RollQty;
 
 	}
+
+
 
 }
 </PropertyValue>
@@ -6451,6 +6552,1902 @@ public class Script
     <Key>04ba5481-3f19-4e6f-b3d9-4243ad2fcc37</Key>
     <PropertyName>ReadOnly</PropertyName>
     <PropertyValue>True</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpPacking</ControlName>
+    <Key>4af27617-de88-4b2f-9be6-66305f1ab787</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>288</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpPacking</ControlName>
+    <Key>4af27617-de88-4b2f-9be6-66305f1ab787</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>853a106c-bbb3-4566-9a24-04c2c40f99d2</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>637</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>853a106c-bbb3-4566-9a24-04c2c40f99d2</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>358</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpTrackerNumber</ControlName>
+    <Key>3c373e0f-27c6-4dca-940a-2135cbb97cb1</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpTrackerNumber</ControlName>
+    <Key>3c373e0f-27c6-4dca-940a-2135cbb97cb1</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>232</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp2</ControlName>
+    <Key>043aae70-8cb6-48a8-b011-87da316a10ac</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp2</ControlName>
+    <Key>043aae70-8cb6-48a8-b011-87da316a10ac</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>128</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp2</ControlName>
+    <Key>043aae70-8cb6-48a8-b011-87da316a10ac</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>625</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp2</ControlName>
+    <Key>043aae70-8cb6-48a8-b011-87da316a10ac</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>108</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>853a106c-bbb3-4566-9a24-04c2c40f99d2</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>88</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>853a106c-bbb3-4566-9a24-04c2c40f99d2</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipDate</ControlName>
+    <Key>fbcb9188-c256-4fcc-970b-8751bfd29952</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipDate</ControlName>
+    <Key>fbcb9188-c256-4fcc-970b-8751bfd29952</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>382</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipDate</ControlName>
+    <Key>fbcb9188-c256-4fcc-970b-8751bfd29952</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>84</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipDate</ControlName>
+    <Key>fbcb9188-c256-4fcc-970b-8751bfd29952</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLabelComment</ControlName>
+    <Key>4eddab34-7fbd-4e03-9894-d7747af5df46</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLabelComment</ControlName>
+    <Key>4eddab34-7fbd-4e03-9894-d7747af5df46</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>329</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLabelComment</ControlName>
+    <Key>4eddab34-7fbd-4e03-9894-d7747af5df46</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>137</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLabelComment</ControlName>
+    <Key>4eddab34-7fbd-4e03-9894-d7747af5df46</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipVia</ControlName>
+    <Key>cb8b0698-a82d-4a97-a7ef-233e38cb6155</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipVia</ControlName>
+    <Key>cb8b0698-a82d-4a97-a7ef-233e38cb6155</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>60</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipVia</ControlName>
+    <Key>cb8b0698-a82d-4a97-a7ef-233e38cb6155</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>78</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipVia</ControlName>
+    <Key>cb8b0698-a82d-4a97-a7ef-233e38cb6155</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLog</ControlName>
+    <Key>3321e845-12b8-4168-953e-d473574ae8a1</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLog</ControlName>
+    <Key>3321e845-12b8-4168-953e-d473574ae8a1</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>418</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLog</ControlName>
+    <Key>3321e845-12b8-4168-953e-d473574ae8a1</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>48</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLog</ControlName>
+    <Key>3321e845-12b8-4168-953e-d473574ae8a1</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtTrackerNumber</ControlName>
+    <Key>26e1385d-4943-43e8-a921-7258c310c615</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>472</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtTrackerNumber</ControlName>
+    <Key>26e1385d-4943-43e8-a921-7258c310c615</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbShipVia</ControlName>
+    <Key>96517be4-782b-4192-bd74-a09c701183c9</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>144</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbShipVia</ControlName>
+    <Key>96517be4-782b-4192-bd74-a09c701183c9</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtLabelComment</ControlName>
+    <Key>7999d739-facc-47d4-a984-14d67e43d0ab</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>472</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtLabelComment</ControlName>
+    <Key>7999d739-facc-47d4-a984-14d67e43d0ab</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>dteShipDate</ControlName>
+    <Key>25db92e6-9abd-432b-9af1-4fa08d3c9a17</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>472</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>dteShipDate</ControlName>
+    <Key>25db92e6-9abd-432b-9af1-4fa08d3c9a17</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipDate</ControlName>
+    <Key>fbcb9188-c256-4fcc-970b-8751bfd29952</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Ship Date:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>144</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>89</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>49</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC24</ControlName>
+    <Key>b7e115ce-2669-44b6-ad6c-c1bc88964da9</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Ship Type:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>131</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>144</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>120</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC25</ControlName>
+    <Key>936752ac-6e3b-4011-a871-11b821d1ab0f</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Ship $$</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtTrackerNumber</ControlName>
+    <Key>26e1385d-4943-43e8-a921-7258c310c615</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>143</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtTrackerNumber</ControlName>
+    <Key>26e1385d-4943-43e8-a921-7258c310c615</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>21</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC25</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>ListItems</PropertyName>
+    <PropertyValue>AIR:OCEAN:CONSOLIDATED:DIRECT</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>ListItems</PropertyName>
+    <PropertyValue>PREPAID:COLLECT</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC1</ControlName>
+    <Key>03485a2a-2f30-43d6-af64-93bf08f46694</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>TFShipHead.ShortChar10</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC2</ControlName>
+    <Key>16b7f044-4223-4f30-b48a-1b8b30f78385</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>TFShipHead.ShortChar09</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7726f9b4-7065-4e3d-9405-b2fae444c20e</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>448</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbTranDocType</ControlName>
+    <Key>7726f9b4-7065-4e3d-9405-b2fae444c20e</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>9fdfc161-4256-4e96-8206-d3b2885f93ca</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>9fdfc161-4256-4e96-8206-d3b2885f93ca</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>319</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>9fdfc161-4256-4e96-8206-d3b2885f93ca</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>123</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblTranDocType</ControlName>
+    <Key>9fdfc161-4256-4e96-8206-d3b2885f93ca</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbStageNbr</ControlName>
+    <Key>5bc74b95-5ddb-45a0-9a81-8f391a8d59e4</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>cmbStageNbr</ControlName>
+    <Key>5bc74b95-5ddb-45a0-9a81-8f391a8d59e4</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>448</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStage</ControlName>
+    <Key>7a1749a5-057e-4639-8e94-556baa68738c</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStage</ControlName>
+    <Key>7a1749a5-057e-4639-8e94-556baa68738c</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>346</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStage</ControlName>
+    <Key>7a1749a5-057e-4639-8e94-556baa68738c</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>96</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStage</ControlName>
+    <Key>7a1749a5-057e-4639-8e94-556baa68738c</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLegalNumber</ControlName>
+    <Key>b6e38535-65fe-4dbb-9b6b-6608c801cfd5</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLegalNumber</ControlName>
+    <Key>b6e38535-65fe-4dbb-9b6b-6608c801cfd5</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>6</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLegalNumber</ControlName>
+    <Key>b6e38535-65fe-4dbb-9b6b-6608c801cfd5</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>156</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblLegalNumber</ControlName>
+    <Key>b6e38535-65fe-4dbb-9b6b-6608c801cfd5</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>btnKeyField</ControlName>
+    <Key>d52a9fd3-9ca4-492b-b9a4-5f4a2070bec8</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>btnKeyField</ControlName>
+    <Key>d52a9fd3-9ca4-492b-b9a4-5f4a2070bec8</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>numKeyField</ControlName>
+    <Key>8aaeeafb-b556-40d0-b1f2-449618a204d0</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>numKeyField</ControlName>
+    <Key>8aaeeafb-b556-40d0-b1f2-449618a204d0</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>168</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtStatus</ControlName>
+    <Key>9dac1c3c-5719-4e05-8eda-4aad4df5de56</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtStatus</ControlName>
+    <Key>9dac1c3c-5719-4e05-8eda-4aad4df5de56</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>168</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>9908eb4a-50ef-4ff4-8de0-70d77a9a037d</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>9908eb4a-50ef-4ff4-8de0-70d77a9a037d</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>42</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>9908eb4a-50ef-4ff4-8de0-70d77a9a037d</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>120</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblStatus</ControlName>
+    <Key>9908eb4a-50ef-4ff4-8de0-70d77a9a037d</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtLegalNumber</ControlName>
+    <Key>19a0b3ea-17d6-4028-93e6-4ddd27d9aa05</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>168</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtLegalNumber</ControlName>
+    <Key>19a0b3ea-17d6-4028-93e6-4ddd27d9aa05</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>chkShipped</ControlName>
+    <Key>a75488e6-2ded-48d9-80e3-998dbbb6fad1</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>448</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>chkShipped</ControlName>
+    <Key>a75488e6-2ded-48d9-80e3-998dbbb6fad1</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipped</ControlName>
+    <Key>d3e10307-50ef-4e49-9eca-9a6b89d4c523</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipped</ControlName>
+    <Key>d3e10307-50ef-4e49-9eca-9a6b89d4c523</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>358</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipped</ControlName>
+    <Key>d3e10307-50ef-4e49-9eca-9a6b89d4c523</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>84</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>lblShipped</ControlName>
+    <Key>d3e10307-50ef-4e49-9eca-9a6b89d4c523</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>43490f15-77ef-4066-b329-37ff014987c8</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>637</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>43490f15-77ef-4066-b329-37ff014987c8</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>85</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>634</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>87</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>24</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>d368c1b4-b9d1-4f95-a7c1-478e7e3981fc</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>btnKeyField</ControlName>
+    <Key>4fdf4e30-7004-47e4-a36f-8fa53279e9cb</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>32</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>btnKeyField</ControlName>
+    <Key>4fdf4e30-7004-47e4-a36f-8fa53279e9cb</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>7fb3a4d3-88b5-4277-a3dd-668c3dc7a88e</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>112</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grpShip</ControlName>
+    <Key>7fb3a4d3-88b5-4277-a3dd-668c3dc7a88e</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>headerDetailPanel1</ControlName>
+    <Key>e662b5ed-786d-4c05-9b78-3932b41d900a</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>498</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>headerDetailPanel1</ControlName>
+    <Key>e662b5ed-786d-4c05-9b78-3932b41d900a</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>722</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>43490f15-77ef-4066-b329-37ff014987c8</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>grp1</ControlName>
+    <Key>43490f15-77ef-4066-b329-37ff014987c8</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>8</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>132</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>144</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>80</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>22</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>043aae70-8cb6-48a8-b011-87da316a10ac</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>120</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>18</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>80</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC26</ControlName>
+    <Key>03662370-0b89-40c2-85ab-2b7945762af1</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>INCO:</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>TFShipHead.ShortChar08</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC26</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiUltraComboC3</ControlName>
+    <Key>148a1c1d-1b83-4740-8907-3fe727d476c8</Key>
+    <PropertyName>ListItems</PropertyName>
+    <PropertyValue>Ex Works</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>eshPrinted</ControlName>
+    <Key>d706c913-130b-48d1-b827-28bd530d2622</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>56</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>eshPrinted</ControlName>
+    <Key>d706c913-130b-48d1-b827-28bd530d2622</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>496</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>eshPrinted</ControlName>
+    <Key>d706c913-130b-48d1-b827-28bd530d2622</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>120</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>eshPrinted</ControlName>
+    <Key>d706c913-130b-48d1-b827-28bd530d2622</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>21</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>1</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>ad093f2d-f839-4aa0-ab4a-fd15240eb464</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>20</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>134</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>44</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>88</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>ChildIndex</PropertyName>
+    <PropertyValue>0</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>Parent</PropertyName>
+    <PropertyValue>ad093f2d-f839-4aa0-ab4a-fd15240eb464</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>Height</PropertyName>
+    <PropertyValue>21</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>Width</PropertyName>
+    <PropertyValue>121</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>184</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>88</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>EpiBinding</PropertyName>
+    <PropertyValue>TFShipDtl.UnitPrice</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiTextBoxC8</ControlName>
+    <Key>6202fc8a-37a0-466a-83a4-2d20e55422b9</Key>
+    <PropertyName>EpiLabel</PropertyName>
+    <PropertyValue>epiLabelC27</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtPart</ControlName>
+    <Key>14f3be53-6bf5-4095-a2c5-199712f55a87</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>184</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtPart</ControlName>
+    <Key>14f3be53-6bf5-4095-a2c5-199712f55a87</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>64</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>numLine</ControlName>
+    <Key>3b13f1a6-14c6-4037-aba9-deb1c1f5a571</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>184</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>numLine</ControlName>
+    <Key>3b13f1a6-14c6-4037-aba9-deb1c1f5a571</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>40</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtOrderNum</ControlName>
+    <Key>c1079996-0702-4524-8c33-91503ec0f9cb</Key>
+    <PropertyName>Left</PropertyName>
+    <PropertyValue>184</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>txtOrderNum</ControlName>
+    <Key>c1079996-0702-4524-8c33-91503ec0f9cb</Key>
+    <PropertyName>Top</PropertyName>
+    <PropertyValue>16</PropertyValue>
+    <Company />
+    <Plant />
+    <DcdUserID />
+    <GroupID />
+    <PropertiesID />
+  </Properties>
+  <Properties>
+    <FormsID>TransOrderShipForm</FormsID>
+    <ControlName>epiLabelC27</ControlName>
+    <Key>db9656b9-a06b-4367-b2b7-c83aa994b731</Key>
+    <PropertyName>Text</PropertyName>
+    <PropertyValue>Unit Price:</PropertyValue>
     <Company />
     <Plant />
     <DcdUserID />

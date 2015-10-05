@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?><directiveGroup xsi:noNamespaceSchemaLocation="Msg.Epicor.Mfg.Bpm.DirectiveGroup.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><name>Customs INV</name><version>9.05.702</version><boSourceGroup boSource="BO"><methods><method><code>TransOrderShip.Update</code><businessObject>TransOrderShip</businessObject><name>Update</name><preProcDirectives><directive><name>Customs INV</name><order>10</order><isEnabled>True</isEnabled><companyIndependent>True</companyIndependent><preventDeadloops>False</preventDeadloops><reenterMax>1000</reenterMax><conditionText /><actionText>set the TFShipHead.Character01 field of the added row to the 'BEKILK2013' expression
+and synchronously execute ABL For Each ttTFSHIPDTL where ttTfShipDtl.R ... record nothing</actionText><globalID>96ea2253-3d67-bb8f-e111-5d987254629d</globalID><isUpToDate>True</isUpToDate><scope /><cgcCode /><conditions><sourceCode>/*Add source code that should be executed before the designed conditions here*/
+
+{&amp;CALL_DESIGNED_CONDITIONS}
+
+/*Add source code that should be executed after the designed conditions here*/</sourceCode></conditions><actions><sourceCode>/*Add source code that should be executed before the designed actions here*/
+
+{&amp;CALL_DESIGNED_ACTIONS}
+
+/*Add source code that should be executed after the designed actions here*/</sourceCode><action><order>1</order><typeName>SimpleRowUpdateActionType</typeName><terminateOnErr>False</terminateOnErr><data><part><order>1</order><text>&lt;Root&gt;&lt;SystemVersion&gt;2.5.607.0&lt;/SystemVersion&gt;&lt;CustomVersion&gt;1.0&lt;/CustomVersion&gt;&lt;Body&gt;&amp;lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&amp;gt;
+&amp;lt;SOAP-ENV:Body&amp;gt;
+&amp;lt;a1:SimpleFieldConfig id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Epicor.Mfg.UI.Bpm/Epicor.Mfg.Bpm.BPMPlugins"&amp;gt;
+&amp;lt;rowSet id="ref-4"&amp;gt;A&amp;lt;/rowSet&amp;gt;
+&amp;lt;valueText id="ref-5"&amp;gt;&amp;amp;#39;BEKILK2013&amp;amp;#39;&amp;lt;/valueText&amp;gt;
+&amp;lt;valuePreparedText href="#ref-5"/&amp;gt;
+&amp;lt;batchOption&amp;gt;ForEachMatching&amp;lt;/batchOption&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__validationError id="ref-6"&amp;gt;&amp;lt;/SimpleQueryConfig_x002B__validationError&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__requireName&amp;gt;false&amp;l</text></part><part><order>2</order><text>t;/SimpleQueryConfig_x002B__requireName&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__canEditName&amp;gt;false&amp;lt;/SimpleQueryConfig_x002B__canEditName&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__requireColumnsCardinality&amp;gt;Single&amp;lt;/SimpleQueryConfig_x002B__requireColumnsCardinality&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__canChangeFilter&amp;gt;false&amp;lt;/SimpleQueryConfig_x002B__canChangeFilter&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__name href="#ref-6"/&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__columnType href="#ref-6"/&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__fromVal xsi:null="1"/&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__toVal xsi:null="1"/&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__tableName id="ref-7"&amp;gt;ttTFShipHead&amp;lt;/SimpleQueryConfig_x002B__tableName&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__filter&amp;gt;All&amp;lt;/SimpleQueryConfig_x002B__filter&amp;gt;
+&amp;lt;SimpleQueryConfig_x002B__columns href="#ref-8"/&amp;gt;
+&amp;lt;/a1:SimpleFieldConfig&amp;gt;
+&amp;lt;a5:Columns id="ref-8" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Epicor.Mfg.UI.Bpm.Miscellaneous/Epicor.Mfg.Bp</text></part><part><order>3</order><text>m.BPMPlugins"&amp;gt;
+&amp;lt;_columns href="#ref-9"/&amp;gt;
+&amp;lt;/a5:Columns&amp;gt;
+&amp;lt;a6:SortedList id="ref-9" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Collections"&amp;gt;
+&amp;lt;keys href="#ref-10"/&amp;gt;
+&amp;lt;values href="#ref-11"/&amp;gt;
+&amp;lt;_size&amp;gt;1&amp;lt;/_size&amp;gt;
+&amp;lt;version&amp;gt;1&amp;lt;/version&amp;gt;
+&amp;lt;comparer href="#ref-12"/&amp;gt;
+&amp;lt;keyList xsi:null="1"/&amp;gt;
+&amp;lt;valueList xsi:null="1"/&amp;gt;
+&amp;lt;/a6:SortedList&amp;gt;
+&amp;lt;SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:anyType[16]"&amp;gt;
+&amp;lt;item xsi:type="xsd:int"&amp;gt;0&amp;lt;/item&amp;gt;
+&amp;lt;/SOAP-ENC:Array&amp;gt;
+&amp;lt;SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:anyType[16]"&amp;gt;
+&amp;lt;item href="#ref-13"/&amp;gt;
+&amp;lt;/SOAP-ENC:Array&amp;gt;
+&amp;lt;a6:CaseInsensitiveComparer id="ref-12" xmlns:a6="http://schemas.microsoft.com/clr/ns/System.Collections"&amp;gt;
+&amp;lt;m_compareInfo href="#ref-14"/&amp;gt;
+&amp;lt;/a6:CaseInsensitiveComparer&amp;gt;
+&amp;lt;a5:TableSchema_x002B_Column id="ref-13" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Epicor.Mfg.UI.Bpm.M</text></part><part><order>4</order><text>iscellaneous/Epicor.Mfg.Bpm.BPMPlugins"&amp;gt;
+&amp;lt;_tableName href="#ref-7"/&amp;gt;
+&amp;lt;_columnName id="ref-15"&amp;gt;Character01&amp;lt;/_columnName&amp;gt;
+&amp;lt;_dataType id="ref-16"&amp;gt;CHARACTER&amp;lt;/_dataType&amp;gt;
+&amp;lt;_isUDField&amp;gt;false&amp;lt;/_isUDField&amp;gt;
+&amp;lt;/a5:TableSchema_x002B_Column&amp;gt;
+&amp;lt;a7:CompareInfo id="ref-14" xmlns:a7="http://schemas.microsoft.com/clr/ns/System.Globalization"&amp;gt;
+&amp;lt;win32LCID&amp;gt;1033&amp;lt;/win32LCID&amp;gt;
+&amp;lt;culture&amp;gt;1033&amp;lt;/culture&amp;gt;
+&amp;lt;m_name id="ref-17"&amp;gt;en-US&amp;lt;/m_name&amp;gt;
+&amp;lt;/a7:CompareInfo&amp;gt;
+&amp;lt;/SOAP-ENV:Body&amp;gt;
+&amp;lt;/SOAP-ENV:Envelope&amp;gt;
+&lt;/Body&gt;&lt;/Root&gt;</text></part></data><sourceCode><part><block>0</block><order>1</order><text>run ttTFShipHead_Backup.
+run ttTFShipHeadAttch_Backup.
+run ttTFShipDtl_Backup.
+run ttShipCOO_Backup.
+run ttTFShipUPS_Backup.
+run ttSelectedSerialNumbers_Backup.
+run ttSNFormat_Backup.
+
+run {RESULT}_execute ({&amp;USE_INPUT-OUTPUT_M_Update}).
+run ttTFShipHead_Restore.
+run ttTFShipHead_copyFromMatch.
+run ttTFShipHeadAttch_Restore.
+run ttTFShipHeadAttch_copyFromMatch.
+run ttTFShipDtl_Restore.
+run ttTFShipDtl_copyFromMatch.
+run ttShipCOO_Restore.
+run ttShipCOO_copyFromMatch.
+run ttTFShipUPS_Restore.
+run ttTFShipUPS_copyFromMatch.
+run ttSelectedSerialNumbers_Restore.
+run ttSelectedSerialNumbers_copyFromMatch.
+run ttSNFormat_Restore.
+run ttSNFormat_copyFromMatch.</text></part><part><block>1</block><order>2</order><text>
+
+procedure {RESULT}_execute:
+{&amp;TRY_PRIVATE}
+
+    {&amp;DECL_INPUT-OUTPUT_P_Update}
+
+    for each ttTFShipHead where ttTFShipHead.RowMod = 'A':
+     assign ttTFShipHead.Character01 = ('BEKILK2013'). 
+
+end.
+
+
+{&amp;CATCH_PRIVATE}
+end procedure.</text></part></sourceCode></action><action><order>3</order><typeName>FourGlActionType</typeName><terminateOnErr>False</terminateOnErr><data><part><order>1</order><text>&lt;Root&gt;&lt;SystemVersion&gt;2.5.702.0&lt;/SystemVersion&gt;&lt;CustomVersion&gt;FourGlActionCfg3&lt;/CustomVersion&gt;&lt;Body&gt;&amp;lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&amp;gt;
+&amp;lt;SOAP-ENV:Body&amp;gt;
+&amp;lt;a1:FourGlActionConfig2 id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Epicor.Mfg.UI.Bpm.Configurations/Epicor.Mfg.Bpm.BPMPlugins"&amp;gt;
+&amp;lt;ProgramActionConfig2_x0060_1_x002B_core href="#ref-4"/&amp;gt;
+&amp;lt;/a1:FourGlActionConfig2&amp;gt;
+&amp;lt;a2:FourGlActionCfg3 id="ref-4" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Bpm.CodeGen.Config/Epicor.Mfg.Bpm.CodeGen"&amp;gt;
+&amp;lt;Declarations id="ref-5"&amp;gt;&amp;lt;/Declarations&amp;gt;
+&amp;lt;IsForward&amp;gt;false&amp;lt;/IsForward&amp;gt;
+&amp;lt;Procedure id="ref</text></part><part><order>2</order><text>-6"&amp;gt;For Each ttTFSHIPDTL where ttTfShipDtl.RowMod = &amp;amp;#34;a&amp;amp;#34;:
+	Find First Partcost where 
+		PartCost.Company = ttTfshipDtl.Company and
+		partcost.CostID = &amp;amp;#34;06&amp;amp;#34; and
+		partCost.PartNum = ttTfshipDtl.PartNum no-lock no-error.
+		
+	If Avail PartCost then do:
+		
+		{lib\publishinfomsg.i &amp;amp;#38;infomsg = &amp;amp;#34;&amp;amp;#39;Price is &amp;amp;#39;+ STRING(Partcost.StdMaterialCost)&amp;amp;#34;}.
+		ttTfshipDtl.UnitPrice = partcost.StdMaterialCost.		
+		
+	End.
+End.&amp;lt;/Procedure&amp;gt;
+&amp;lt;SourceProc href="#ref-7"/&amp;gt;
+&amp;lt;AsyncMode&amp;gt;BPM_ASYNC_NONE&amp;lt;/AsyncMode&amp;gt;
+&amp;lt;DoRecordCall&amp;gt;false&amp;lt;/DoRecordCall&amp;gt;
+&amp;lt;DoRecordReturn&amp;gt;false&amp;lt;/DoRecordReturn&amp;gt;
+&amp;lt;batchOption&amp;gt;OnceForAllMatching&amp;lt;/batchOption&amp;gt;
+&amp;lt;primaryTable href="#ref-5"/&amp;gt;
+&amp;lt;Version xsi:null="1"/&amp;gt;
+&amp;lt;/a2:FourGlActionCfg3&amp;gt;
+&amp;lt;a2:MethodInfoCfg2 id="ref-7" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Bpm.CodeGen.Config/Epicor.Mfg.Bpm.CodeGen"&amp;gt;
+&amp;lt;BoSource id="ref-8"&amp;</text></part><part><order>3</order><text>gt;BO&amp;lt;/BoSource&amp;gt;
+&amp;lt;ObjName id="ref-9"&amp;gt;TransOrderShip&amp;lt;/ObjName&amp;gt;
+&amp;lt;Parameters href="#ref-10"/&amp;gt;
+&amp;lt;Location id="ref-11"&amp;gt;\Update.p&amp;lt;/Location&amp;gt;
+&amp;lt;Version id="ref-12"&amp;gt;Bpm.CodeGen.Config.MethodInfoCfg2&amp;lt;/Version&amp;gt;
+&amp;lt;/a2:MethodInfoCfg2&amp;gt;
+&amp;lt;SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="a2:ParamCfg[1]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Bpm.CodeGen.Config/Epicor.Mfg.Bpm.CodeGen"&amp;gt;
+&amp;lt;item href="#ref-13"/&amp;gt;
+&amp;lt;/SOAP-ENC:Array&amp;gt;
+&amp;lt;a2:ParamCfg id="ref-13" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/Bpm.CodeGen.Config/Epicor.Mfg.Bpm.CodeGen"&amp;gt;
+&amp;lt;Direction id="ref-14"&amp;gt;INPUT-OUTPUT&amp;lt;/Direction&amp;gt;
+&amp;lt;Name id="ref-15"&amp;gt;TransOrderShipDataSet&amp;lt;/Name&amp;gt;
+&amp;lt;Type id="ref-16"&amp;gt;DATASET$7&amp;lt;/Type&amp;gt;
+&amp;lt;Version xsi:null="1"/&amp;gt;
+&amp;lt;/a2:ParamCfg&amp;gt;
+&amp;lt;/SOAP-ENV:Body&amp;gt;
+&amp;lt;/SOAP-ENV:Envelope&amp;gt;
+&lt;/Body&gt;&lt;/Root&gt;</text></part></data><sourceCode><part><block>0</block><order>1</order><text>run ttTFShipHead_Backup.
+run ttTFShipHeadAttch_Backup.
+run ttTFShipDtl_Backup.
+run ttShipCOO_Backup.
+run ttTFShipUPS_Backup.
+run ttSelectedSerialNumbers_Backup.
+run ttSNFormat_Backup.
+					
+run Update{RESULT} (INPUT-OUTPUT dataset TransOrderShipDataSetM).
+run ttTFShipHead_Restore.
+run ttTFShipHead_copyFromMatch.
+run ttTFShipHeadAttch_Restore.
+run ttTFShipHeadAttch_copyFromMatch.
+run ttTFShipDtl_Restore.
+run ttTFShipDtl_copyFromMatch.
+run ttShipCOO_Restore.
+run ttShipCOO_copyFromMatch.
+run ttTFShipUPS_Restore.
+run ttTFShipUPS_copyFromMatch.
+run ttSelectedSerialNumbers_Restore.
+run ttSelectedSerialNumbers_copyFromMatch.
+run ttSNFormat_Restore.
+run ttSNFormat_copyFromMatch.</text></part><part><block>1</block><order>2</order><text>
+/* AblActionGen {
+*/
+
+procedure Update{RESULT}:
+	define input-output parameter dataset for TransOrderShipDataSet.
+{&amp;TRY_PRIVATE}
+
+
+/* ProcedureGen {
+*/
+For Each ttTFSHIPDTL where ttTfShipDtl.RowMod = "a":
+	Find First Partcost where 
+		PartCost.Company = ttTfshipDtl.Company and
+		partcost.CostID = "06" and
+		partCost.PartNum = ttTfshipDtl.PartNum no-lock no-error.
+		
+	If Avail PartCost then do:
+		
+		{lib\publishinfomsg.i &amp;infomsg = "'Price is '+ STRING(Partcost.StdMaterialCost)"}.
+		ttTfshipDtl.UnitPrice = partcost.StdMaterialCost.		
+		
+	End.
+End.
+/*
+} ProcedureGen */
+
+
+{&amp;CATCH_PRIVATE}
+end procedure.
+/*
+} AblActionGen */</text></part></sourceCode></action></actions></directive></preProcDirectives><baseProcDirectives /><postProcDirectives /></method></methods></boSourceGroup><externalData /></directiveGroup>
